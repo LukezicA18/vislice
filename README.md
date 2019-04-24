@@ -7,4 +7,4 @@ Repozitorij za skupni projekt pri UVP
 
 - Matija Pretnar 
 
-- Anja Petkovič
+- Anja Petković
