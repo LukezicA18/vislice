@@ -54,6 +54,13 @@ class Igra:
                 niz_nepravilnih_crk += 'crka'
         return niz_nepravilnih_crk
     
+    def nepravilni_ugibi(self):
+        nepravilni_ugibi = ''
+        for crka in self.geslo:
+            if crka in self.napacne_crke():
+                nepravilni_ugibi += crka + ' '
+        return nepravilni_ugibi
+
     def ugibaj(self, crka):
         crka = crka.upper()
         if crka in self.crke:
